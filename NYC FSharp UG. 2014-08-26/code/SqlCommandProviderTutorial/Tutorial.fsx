@@ -9,3 +9,4 @@ let connectionString = @"Data Source=(LocalDb)\v11.0;Initial Catalog=AdventureWo
 type Get42Query = SqlCommandProvider<"SELECT 42 AS Value", connectionString, SingleRow = true>
 let cmdGet42 = new Get42Query()
 cmdGet42.Execute()
+
