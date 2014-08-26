@@ -1,3 +1,7 @@
+nuget/*.nupkg
+packages
+temp
+
 #################
 ## Eclipse
 #################
