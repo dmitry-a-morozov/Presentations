@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b565e006-7640-4e1c-afb5-8ef9718989fd</ProjectGuid>
+    <ProjectGuid>e009993d-6926-46bc-9eba-3c1cf11a978a</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SqlCommandProviderTutorial</RootNamespace>
-    <AssemblyName>SqlCommandProviderTutorial</AssemblyName>
+    <RootNamespace>Tutorial2</RootNamespace>
+    <AssemblyName>Tutorial2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>SqlCommandProviderTutorial</Name>
+    <Name>Tutorial2</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,8 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>bin\Debug\Tutorial2.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -35,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\SqlCommandProviderTutorial.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Tutorial2.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -59,16 +58,13 @@
     <None Include="SqlServerTypes\readme.htm" />
     <None Include="SqlServerTypes\Loader.cs" />
     <None Include="packages.config" />
+    <None Include="app.config" />
+    <None Include="FizzBuzz.sql" />
     <Compile Include="Program.fs" />
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data.SqlClient">
       <HintPath>..\packages\FSharp.Data.SqlClient.1.3.2\lib\net40\FSharp.Data.SqlClient.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="FSharp.Data.SqlEnumProvider">
-      <HintPath>..\packages\FSharp.Data.SqlEnumProvider.0.8.0-aplha\lib\net40\FSharp.Data.SqlEnumProvider.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SqlServer.ConnectionInfo">

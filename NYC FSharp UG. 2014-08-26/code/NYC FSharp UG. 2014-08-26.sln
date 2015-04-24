@@ -11,7 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		FizzBuzz.sql = FizzBuzz.sql
 		SqlCommandProviderTutorial.fsx = SqlCommandProviderTutorial.fsx
+		SqlEnumProvider.fsx = SqlEnumProvider.fsx
+		Tutorial.Skeleton.fsx = Tutorial.Skeleton.fsx
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tutorial2", "Tutorial2\Tutorial2.fsproj", "{E009993D-6926-46BC-9EBA-3C1CF11A978A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,10 @@ Global
 		{B565E006-7640-4E1C-AFB5-8EF9718989FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B565E006-7640-4E1C-AFB5-8EF9718989FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B565E006-7640-4E1C-AFB5-8EF9718989FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E009993D-6926-46BC-9EBA-3C1CF11A978A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E009993D-6926-46BC-9EBA-3C1CF11A978A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E009993D-6926-46BC-9EBA-3C1CF11A978A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E009993D-6926-46BC-9EBA-3C1CF11A978A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
