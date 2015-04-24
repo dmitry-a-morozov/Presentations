@@ -1,13 +1,13 @@
 ﻿
 //add ref in script
-#r @"packages\FSharp.Data.SqlClient.1.3.2\lib\net40\FSharp.Data.SqlClient.dll"
+#r @"packages\FSharp.Data.SqlClient.1.6.2\lib\net40\FSharp.Data.SqlClient.dll"
 
 //open namespace
 open FSharp.Data
 
 //connection string local
 [<Literal>] 
-let connectionString = @"Data Source=(LocalDb)\v11.0;Initial Catalog=AdventureWorks2012;Integrated Security=True"
+let connectionString = @"Data Source=.;Initial Catalog=AdventureWorks2014;Integrated Security=True"
 
 //azure connection string
 //[<Literal>]

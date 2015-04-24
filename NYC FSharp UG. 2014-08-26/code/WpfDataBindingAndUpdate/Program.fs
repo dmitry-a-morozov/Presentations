@@ -23,7 +23,7 @@ let main argv =
 
     let cmd = new Query()
     let data = cmd.Execute(startsWith = "c%")
-    grid.ItemsSource <- data
+    grid.ItemsSource <- data.Rows
 
     close.Click.Add <| fun _ -> mainWindow.Close()
     save.Click.Add <| fun _ -> 

@@ -13,7 +13,7 @@ let topSalesQuery = "
     ORDER BY SalesYTD
 " 
 
-type TopSalesQuery = SqlCommandProvider<topSalesQuery, "name=AdventureWorks2012">
+type TopSalesQuery = SqlCommandProvider<topSalesQuery, "name=AdventureWorks2014">
 
 [<STAThread>]
 do   

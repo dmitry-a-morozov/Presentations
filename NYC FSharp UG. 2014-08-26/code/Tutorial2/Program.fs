@@ -13,7 +13,7 @@ let topSalesQuery = "
     ORDER BY SalesYTD
 " 
 
-type TopSalesQuery = SqlCommandProvider<topSalesQuery, "name=AdventureWorks2012">
+type TopSalesQuery = SqlCommandProvider<topSalesQuery, "name=AdventureWorks2014">
 
 [<STAThread>]
 do   
@@ -24,6 +24,5 @@ do
     grid.DataSource <- 
         [|
             for x in cmd.Execute(TopN = 3L, regionName = "United States", salesMoreThan = 1000000M) ->
-                x.
                 sprintf "%s %s" x.FirstName x.LastName, x.SalesYTD
         |]
